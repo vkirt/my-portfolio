@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+        <nav id="desktop-nav">
+        <div class="logo">Volkan KİRT</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#profile">Hakkımda</a></li>
+                <li><a href="#experience">Tecrübelerim</a></li>
+                <li><a href="#projects">Projeler</a></li>
+                <li><a href="#contact">İletişim</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav"> 
+    <div class="logo">Volkan KİRT</div>
+    <div class="hamburger-menu">
+    <div class="hamburger-icon" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+<div class="menu-links">
+                <li><a href="#profile" onclick="toggleMenu()">Hakkımda</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Tecrübelerim</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projeler</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">İletişim</a></li>
+   </div>
+ </div>
+</nav>
+<section id="profile">
+    <div class="section__pic-container">
+    <img 
+    src="./assets/profile-pic.png" 
+    alt="Volkan KİRT profile picture">
+    </div>
+    <div class="section__text">
+    <p class="section__text__p1">Merhaba, Ben</p>
+    <h1 class="title"> Volkan KİRT</h1>
+    <p class="section__text__p2"> Full Stack And Sap Abap Developer</p>
+<div class="btn-container">
+    <button 
+    class="btn btn-color-2" 
+    onclick="window.open('/assets/Volkan KİRT-cv.pdf')"
+    >
+    CV İndir    
+    </button> 
+    <button class="btn btn-color-1" onclick="location.href='/İletişim'">
+    İletişim 
+</button>
+</div>
+<div id="socials-container">
+    <img 
+    src="./assets/linkedin.png" 
+    alt="Benim Linkedln Profilim"
+    class="icon" 
+    onclick="location.href='https://Linkedin.com/'"
+    />
+    <img 
+    src="./assets/github.png" 
+    alt="Benim Github Profilim"
+    class="icon" 
+    onclick="location.href='https://github.com/'"
+    />
+</section>
+<section id="about">
+    <p class="section__text__p1">Ben Kimim</p>
+    <h1 class="title">Hakkımda</h1>
+    <div class="section-container">
+        <div class="section__pic-container">
+            <img 
+            src="./assets/about.png" 
+            alt="Profile picture"
+            class="about-pic"
+            />
+        </div>
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img 
+                    src="./assets/experience.png" 
+                    alt="Experience icon" 
+                    class="icon"
+                    />
+                    <h3>Uzmanlıklarım</h3>
+                    <p>4 Ay <br /> Jr. Sap Abap Developer </p>
+                    <p>2 Ay <br /> Jr. Full Stack Developer </p>
+                </div>
+                <div class="details-container">
+                    <img 
+                    src="./assets/education.png" 
+                    alt="Education icon" 
+                    class="icon"
+                    />
+                    <h3>Eğitimlerim</h3>
+                    <p>Banka ve Sigortacılık</p> <br />
+                       Uluslararası Ticaret ve Lojistik</p>
+                </div>
+               <div class="text-container">
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque odit unde quos beatae laboriosam rem iste assumenda
+                suscipit, voluptate expedita tempore commodi itaque, eos quam quae placeat! Nulla adipisci itaque dignissimos eos?
+                Molestias dolores doloremque facilis iste, eius incidunt in aliquam repellat suscipit laborum perspiciatis et tempore
+                atque quis adipisci.
+               </p>
+            </div>
+        </div>
+     <div>
+    <img 
+    src="./assets/arrow.png"
+    alt="Arrow icon" 
+    class="icon arrow"
+    onclick="location.href='./#experience'"
+    />
+</section>
+<section id="experience">
+    <p class="section__text__p1"> Beni Keşfetin</p>
+    <h1 class="title">Tecrübelerim</h1>
+    <div class="experience-details-container">
+    <div class="about-containers">
+        <div class="details-container">
+            <h2 class="experience-sub-title">Full Stack And Sap Abap Developer</h2>
+            <div class="article-container">
+                <article>
+                    <img 
+                    src="./assets/checkmark.png" 
+                    alt="Experience icon"
+                    class="icon"
+                    />
+                    <div>
+                        <h3>HTML</h3>
+                        <P>Temel</P>
+                    </div>
+                </article>
+                <article>
+                    <img 
+                    src="./assets/checkmark.png" 
+                    alt="Experience icon"
+                    class="icon"
+                    />
+                    <div>
+                        <h3>CSS</h3>
+                        <P>Temel</P>
+                    </div>
+                </article>
+                <article>
+                    <img 
+                    src="./assets/checkmark.png" 
+                    alt="Experience icon"
+                    class="icon"
+                    />
+                    <div>
+                        <h3>Sass</h3>
+                        <P>Temel</P>
+                    </div>
+                </article>
+                <article>
+                    <img 
+                    src="./assets/checkmark.png" 
+                    alt="Experience icon"
+                    class="icon"
+                    />
+                    <div>
+                        <h3>JavaScript</h3>
+                        <P>Temel</P>
+                    </div>
+                </article>
+                <article>
+                    <img 
+                    src="./assets/checkmark.png" 
+                    alt="Experience icon"
+                    class="icon"
+                    />
+                    <div>
+                        <h3>.NET Core</h3>
+                        <P>Temel</P>
+                    </div>
+                </article>
+                <article>
+                    <img 
+                    src="./assets/checkmark.png" 
+                    alt="Experience icon"
+                    class="icon"
+                    />
+                    <div>
+                        <h3>ANGULAR</h3>
+                        <P>Temel</P>
+                    </div>
+                </article>
+                </div>
+           </div><div class="details-container">
+            <h2 class="experience-sub-title">Full Stack And Sap Abap Developer</h2>
+            <div class="article-container">
+                <article>
+                    <img 
+                    src="./assets/checkmark.png" 
+                    alt="Experience icon"
+                    class="icon"
+                    />
+                    <div>
+                        <h3>SQL Server</h3>
+                        <P>Temel</P>
+                    </div>
+                </article>
+                <article>
+                    <img 
+                    src="./assets/checkmark.png" 
+                    alt="Experience icon"
+                    class="icon"
+                    />
+                    <div>
+                        <h3>C#</h3>
+                        <P>Temel</P>
+                    </div>
+                </article>
+                <article>
+                    <img 
+                    src="./assets/checkmark.png" 
+                    alt="Experience icon"
+                    class="icon"
+                    />
+                    <div>
+                        <h3>SAP ABAP</h3>
+                        <P>Temel</P>
+                    </div>
+                </article>
+             </div>
+           </div>
+        </div>
+     </div>
+     <img 
+    src="./assets/arrow.png"
+    alt="Arrow icon" 
+    class="icon arrow"
+    onclick="location.href='./#projects'"
+    />
+    </section>
+    <section id="projects">
+    <p class="section__text__p1"></p>
+    <h1 class="title">Projelerim</h1>
+    <div class="experience-details-container">
+        <div class="details-container color container">
+        <div class="article-container">
+            <img 
+            src="./assets/profile-pic.png" 
+            alt=" Project 1"
+            class="project-img"
+            />
+        </div>
+        <h2 class="experience-sub-title project-title">İlk Projem</h2>
+        <div class="btn-container">
+            <button 
+            class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'"
+            >
+                Github
+            </button>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1"> </p>
+        <h1 class="title">Benimle İrtibata Geçiniz</h1>
+        <div class="contact-info-upper-container"> 
+          <div class="contact-info-container"> 
+                <img 
+                src="./assets/email.png"
+                alt="Email icon"
+                class="icon contact-icon email-icon"
+                />
+                <p><a href="mailto:volkankirt@gmail.com">volkankirt@gmail.com</a></p>
+        </div>
+      <div class="contact-info-container"> 
+      <img 
+        src="./assets/linkedin.png"
+        alt="Linkedin icon"
+        class="icon contact-icon"
+      />
+      <p><a href="https://www.linkedin.com/in/volkan-kirt-b07674120/">Linkedln</a></p>
+        </div>
+        <div>
+        </section> 
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#profile">Hakkımda</a></li>
+                        <li><a href="#experience">Tecrübelerim</a></li>
+                        <li><a href="#projects">Projeler</a></li>
+                        <li><a href="#contact">İletişim</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>Copyright &#169; 2023 Volkan KİRT. Tüm Hakları Saklıdır.</p>
+        </footer>
+    <script src="script.js"></script>  
+    </body>
+</html>
